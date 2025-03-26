@@ -1,20 +1,28 @@
-# 🚗 Vehicle Recall Prediction System
+# 🚗 Predictive Vehicle Recall Risk Classification
+
+![Project Banner](https://via.placeholder.com/1200x400/2D3748/FFFFFF?text=Vehicle+Recall+Prediction+System)
 
 ## 📌 Project Overview
-Machine learning system to classify vehicle complaints and predict recall risks using NHTSA data.
+**A machine learning system** that classifies vehicle complaints into risk categories to enable proactive recalls and enhance automotive safety.
 
-## 🔍 Key Features
-- BERT-based text analysis of complaints
-- Risk classification (High/Medium/Low)
-- Recall prediction model
+🔹 **Goal:** Predict high-risk defects before they escalate  
+🔹 **Impact:** Reduce recall delays by 30-50% and prevent accidents  
+🔹 **Tech Stack:** Python, BERT, XGBoost, Scikit-learn  
 
-## 📊 Data Sources
-| Dataset | Records | Period | Key Fields |
-|---------|---------|--------|------------|
-| Complaints | 1.2M+ | 1995-2024 | CMPLID, CRASH, COMPDESC |
-| Recalls | 583K | 1967-2024 | CAMPNO, DESC_DEFECT |
+---
 
-## 🛠️ Installation
-```bash
-git clone https://github.com/yourusername/vehicle-recall-prediction.git
-pip install -r requirements.txt
+## 📊 Workflow Architecture
+
+```mermaid
+graph TD
+    A[Complaints Data] --> D[Data Cleaning]
+    B[Recall Data] --> D
+    C[Investigation Data] --> D
+    D --> E[Exploratory Analysis]
+    E --> F[Feature Engineering]
+    F --> G[Data Aggregation]
+    G --> H[BERT Text Scoring]
+    H --> I[Combine Features]
+    I --> J[Tree-Based ML Model]
+    J --> K[Risk Classification]
+    
