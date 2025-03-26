@@ -23,7 +23,7 @@ By integrating structured and unstructured data from the **National Highway Traf
 
 ## 🛠️ Risk Classification Workflow
 
-![Risk Classification Flowchart](Picture2.png)
+![Risk Classification Flowchart](Picture2.jpg)
 
 > **Figure**: A hybrid ML-NLP architecture combining structured vehicle metadata and unstructured complaint descriptions to stratify complaint risk levels.
 
