@@ -109,11 +109,6 @@ This project builds upon foundational research including:
 
 ---
 
-## 👩‍💻 Author & Contact
-
-**[Your Name]**  
-Master’s in Business Analytics, [Your University]  
-📫 [Your Email] | 🌐 [LinkedIn/GitHub]
 
 ---
 
