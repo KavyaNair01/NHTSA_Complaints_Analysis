@@ -1,6 +1,6 @@
 # 🚗 Risk Stratification of Vehicle Complaints: Classifying Risks for Proactive Measures
 
-![NHTSA Logo](https://upload.wikimedia.org/wikipedia/commons/6/6d/NHTSA_logo.png)
+![NHTSA Logo](Picture1.png)
 
 ---
 
