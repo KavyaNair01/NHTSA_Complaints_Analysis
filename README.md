@@ -89,11 +89,40 @@ The dataset is highly imbalanced toward low-risk complaints.
 
 ---
 
-## 📌 Next Steps
+## 🛠️ Technology Stack
 
-- Finalize model training with hyperparameter tuning.
-- Evaluate with AUC-ROC, F1-Score, and Disparity Score for fairness.
-- Deploy as a dashboard or alert system to assist regulatory decision-making.
+### 📚 Programming Languages
+- **Python** with following libraries:
+  - 🏗️ Data Processing: Pandas, NumPy
+  - 🤖 Machine Learning: Scikit-Learn, TensorFlow
+  - 🗣️ NLP: Transformers, NLTK, SpaCy
+
+### ☁️ Cloud Services
+- **Google Cloud Storage** for dataset management and storage
+
+### 📊 Data Visualization
+- Matplotlib
+- Seaborn
+
+### 🧠 Machine Learning Models
+- XGBoost
+- Random Forest
+- Logistic Regression
+- BERT for NLP tasks
+
+### 📈 Big Data Processing
+- PySpark for efficient handling of large datasets
+
+## 🔑 Key Findings
+
+- ✅ Achieved **~85% accuracy** in classifying complaints that would lead to recalls
+- 💡 **BERT-based NLP** improved recall prediction by effectively capturing textual context in complaints
+- 📈 Identified **40% increase** in software-related recalls following ADAS and EV adoption
+- 🔥 Strong predictors of recalls:
+  - Early complaint indicators (fire, braking issues, unintended acceleration)
+- ⏱️ Operational insight:
+  - Faster response times for high-risk complaints could **significantly reduce safety defects**
+
 
 ---
 
